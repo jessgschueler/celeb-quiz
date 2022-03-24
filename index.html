@@ -12,38 +12,37 @@
 </head>
 <body>
   <div class="container"></div>
-    <form>
-      <label class="sr-only" for="inlineFormInputName2">Name</label>
-      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Please enter your name.">
-      <label>What's your favorite color</label>
-      <br>
-      <select class="custom-select custom-select-lg mb-3">
-        <option selected class="noAnswer">Open this select menu</option>
-        <option id="blue">Blue</option>
-        <option id="red">Red</option>
-        <option id="yellow">Yellow</option>
-      </select>
-      <br>
-      <label>What's your favorite food</label>
-      <br>
-      <select class="custom-select custom-select-lg mb-3">
-        <option selected class="noAnswer">Open this select menu</option>
-        <option id="apples">Apples</option>
-        <option id="oranges">Oranges</option>
-        <option id="carrots">Carrots</option>
-      </select>
-      <br>
-      <label>If you could only have one of these which would it be?</label>
-      <br>
-      <select class="custom-select custom-select-lg mb-3">
-        <option selected class="noAnswer">Open this select menu</option>
-        <option id="chair">Chair</option>
-        <option id="couch">Couch</option>
-        <option id="shoes">Shoes</option>
-      </select>
-      <br>
-      <button type="submit">&#128151;Who Could it be?&#128151;</button>
-    </form>
+    <h2>Who's your celebrity match?</h2>
+      <form>
+        <label>What's your favorite color</label>
+        <br>
+        <select class="custom-select custom-select-lg mb-3" id="q1">
+          <option selected class="noAnswer" value="0">Open this select menu</option>
+          <option value="1">Blue</option>
+          <option value="2">Red</option>
+          <option value="3">Yellow</option>
+        </select>
+        <br>
+        <label>What's your favorite food</label>
+        <br>
+        <select class="custom-select custom-select-lg mb-3" id="q2">
+          <option selected class="noAnswer" value="0">Open this select menu</option>
+          <option value="1">Apples</option>
+          <option value="2">Oranges</option>
+          <option value="3">Carrots</option>
+        </select>
+        <br>
+        <label>If you could only have one of these which would it be?</label>
+        <br>
+        <select class="custom-select custom-select-lg mb-3" id="q3">
+          <option selected class="noAnswer" value="0">Open this select menu</option>
+          <option value="1">Chair</option>
+          <option value="2">Couch</option>
+          <option value="3">Shoes</option>
+        </select>
+        <br>
+        <button type="submit">&#128151;Who Could it be?&#128151;</button>
+      </form>
   </div>
   <div id="tomC">
     <h3>&#128151;Tom Cruise!&#128151;</h3>
