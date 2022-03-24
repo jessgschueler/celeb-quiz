@@ -6,9 +6,59 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
   
-  <title></title>
+  <title>The Celebrity Dating Game</title>
 </head>
 <body>
+  <div class="container"></div>
+    <form>
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Please enter your name.">
+      <label>What's your favorite color</label>
+      <br>
+      <select class="custom-select custom-select-lg mb-3">
+        <option selected class="noAnswer">Open this select menu</option>
+        <option id="blue">Blue</option>
+        <option id="red">Red</option>
+        <option id="yellow">Yellow</option>
+      </select>
+      <br>
+      <label>What's your favorite food</label>
+      <br>
+      <select class="custom-select custom-select-lg mb-3">
+        <option selected class="noAnswer">Open this select menu</option>
+        <option id="apples">Apples</option>
+        <option id="oranges">Oranges</option>
+        <option id="carrots">Carrots</option>
+      </select>
+      <br>
+      <label>If you could only have one of these which would it be?</label>
+      <br>
+      <select class="custom-select custom-select-lg mb-3">
+        <option selected class="noAnswer">Open this select menu</option>
+        <option id="chair">Chair</option>
+        <option id="couch">Couch</option>
+        <option id="shoes">Shoes</option>
+      </select>
+      <br>
+      <button type="submit">&#128151;Who Could it be?&#128151;</button>
+    </form>
+  </div>
+  <div id="tomC">
+    <h3>&#128151;Tom Cruise!&#128151;</h3>
+    <img src="img/tomCruise.jpeg">
+    <p>Wow! only the top 5% score this great! </p>
+  </div>
+  <div id="gwen">
+    <h3>&#128151;Gwyneth Paltrow&#128151;</h3>
+    <img src="img/gwen.jpeg">
+    <p>Goop! You scored so great!</p>
+  </div>
+  <div id="cTop">
+    <h3>&#128534;OH NO! Carrot Top! &#129365;&#129365;&#129365;&#129365;</h3>
+    <img src="img/carrot.jpeg">
+    <p>Prop comedy is back! and your gonna get a lot of it!</p>
+  </div>
 </body>
 </html>
